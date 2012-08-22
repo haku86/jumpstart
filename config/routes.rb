@@ -1,4 +1,16 @@
 Jumpstart::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/about"
+
+  get "pages/mentors"
+
+  get "pages/incubatees"
+
+  get "pages/services"
+
+  get "pages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
