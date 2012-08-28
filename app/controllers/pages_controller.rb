@@ -5,13 +5,13 @@ class PagesController < ApplicationController
   def about
   end
 
-  def mentors
+  def people
   end
 
-  def incubatees
+  def apply
   end
 
-  def services
+  def offerings
   end
 
   def contact

@@ -7,8 +7,8 @@ html {
 }
 
 body {
-  padding-top: 60px;
-  background: #8a2918;
+  padding-top: 90px;
+  background: #f2f2f2;
 }
 
 section {
@@ -55,8 +55,24 @@ p {
   line-height: 1.7em;
 }
 
+.courgette{
+  font-family: 'Courgette', cursive;
+  font-weight: normal;
+}
 
 /* header */
+.navbar-inner{
+  background-image: -moz-linear-gradient(center top , #f89406, #e58906) !important;
+}
+
+header .nav a{
+  color: #ffffff !important;
+  font-size: 1.125em;
+}
+
+header .nav a:hover{
+  color: #000000 !important;
+}
 
 #logo {
   float: left;
@@ -75,3 +91,163 @@ p {
   text-decoration: none;
 }
 
+/* Footer */
+.footer{
+  border-top: 1px dashed #999999;
+  border-bottom: 1px dashed #999999;
+  color: #999999;
+  overflow: auto;
+}
+
+.footer span{
+  float: left;
+  margin-left: 20px;
+  padding: 5px 0;
+}
+
+.footer nav{
+  float: right;
+  margin-right: 20px;
+}
+
+.footer ul{
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li{
+  float: left;
+}
+
+.footer ul li a{
+  text-indent: -9999px;
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 3px 8px;
+}
+
+.footer .facebook{
+  background: url('facebook.png')
+}
+
+.footer .twitter{
+  background: url('twitter.png')
+}
+
+.footer .wordpress{
+  background: url('wordpress.png')
+}
+
+/* Landing Page */
+.tagline{
+  color: #494444;
+  font-size: 2.75em;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+.landing-nav{
+  list-style: none;
+  background: url('landingNavBG.png');
+  width: 800px;
+  height: 130px;
+  margin: 0 auto;
+  position: relative;
+  top: -35px;
+}
+
+.landing-nav li{
+  float: left;
+  margin: 30px 0;
+}
+
+.landing-nav li a{
+  font-size: 1.75em;
+  font-weight: bold;
+  padding: 30px 15px;
+  color: #ffffff;
+  position: relative;
+  left: 110px;
+}
+
+.landing-nav li a:hover{
+  background: none;
+  color: #19c6e0;
+}
+
+/* Our Offerings */
+.offerings .grey-divider{
+  border-top: 1px solid #dddddd;
+  padding-top: 20px;
+  margin-bottom: 20px;
+} 
+
+.offerings .span12 img{
+  padding: 8px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+/* Our People */
+.people #myTab{
+  width: auto;
+  margin: 0 auto 30px 0;
+  padding: 0 0 0 175px;
+}
+
+.people #myTab li a{
+  font-size: 2em;
+  border: none;
+  color: #555555;
+  padding: 20px 15px;
+  width: 250px;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.people #myTab .active a, .people #myTab li a:hover{
+  background: none;
+  border: none;
+  color: #F89406;
+}
+
+.people #investor-mentor .span6{
+  margin-bottom: 30px;
+}
+
+.people #investor-mentor .photo-container{
+  float: left;
+  display: inline-block;
+/*  border: 5px solid #ffffff;
+  border-radius: 7px;*/
+  margin-right: 10px;
+}
+
+.people #investor-mentor .imName{
+  font-size: 1.75em;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #dddddd;
+  display: inline-block;
+  float: left;
+  width: 300px;
+}
+
+.people #investor-mentor .imTitle{
+  color: #999999;
+  margin-bottom: 10px;
+}
+
+.people #startup .logo-container{
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.people #startup p{
+  text-align: justify;
+  width: 95%;
+  margin-bottom: 20px;
+}

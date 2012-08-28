@@ -3,11 +3,11 @@ Jumpstart::Application.routes.draw do
 
   get "pages/about"
 
-  get "pages/mentors"
+  get "pages/people"
 
-  get "pages/incubatees"
+  get "pages/apply"
 
-  get "pages/services"
+  get "pages/offerings"
 
   get "pages/contact"
 
